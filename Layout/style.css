@@ -1,0 +1,32 @@
+.nav {
+    width: 960px;
+    float: right;
+    background-color: darkred;
+}
+.clearfix::before,
+.clearfix::after  {
+    content: "";
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+.nav ul {
+    float: right;
+}
+
+.nav ul li{
+    display: block;
+    float: left;
+    margin-left: 10px; 
+    
+}
+ li a {
+     color: white;
+     text-decoration: none;
+
+ }
+
+
