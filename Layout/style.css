@@ -1,7 +1,12 @@
-.nav {
+.container {
     width: 960px;
-    float: right;
+    margin: 0 auto;
+}
+
+.nav {
+   
     background-color: darkred;
+   
 }
 .clearfix::before,
 .clearfix::after  {
@@ -20,7 +25,7 @@
 .nav ul li{
     display: block;
     float: left;
-    margin-left: 10px; 
+    margin:0 15px; 
     
 }
  li a {
@@ -28,5 +33,52 @@
      text-decoration: none;
 
  }
+
+ .photo {
+     display: block;
+     margin-top: 5px;
+     margin-bottom: 5px;
+     width: 960px;
+ }
+
+ .right_div {
+     background-color: yellow;
+     float: right;
+     width: 200px;
+ }
+
+ .right_div ul li a {
+     color: black;
+     text-decoration: none;
+ }
+
+ .right_div ul li{
+    list-style-type: none;
+ }
+ .parent_div{
+     width: 300px;
+     float: left;
+     margin: 10px;
+ }
+.box{
+    width: 300px;
+    height: 200px;
+}
+ .blue {
+     background-color: darkblue;
+
+ }
+ .red {
+    background-color: darkred;
+ }
+
+ .green {
+    background-color: mediumaquamarine;
+ }
+
+ .yellow {
+     background-color: yellow;
+ }
+
 
 
