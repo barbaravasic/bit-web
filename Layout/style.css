@@ -1,12 +1,10 @@
-.container {
-    width: 960px;
-    margin: 0 auto;
+.nav_header {
+    background-color: darkred;
 }
 
-.nav {
-   
-    background-color: darkred;
-   
+.container {
+    width: 960px;
+    margin: 0 auto;   
 }
 .clearfix::before,
 .clearfix::after  {
@@ -42,43 +40,47 @@
  }
 
  .right_div {
-     background-color: yellow;
+     background-color: #FCCF40;
      float: right;
-     width: 200px;
+     width: 300px;
  }
+ 
 
  .right_div ul li a {
      color: black;
      text-decoration: none;
+     font-size: 20px;
  }
 
  .right_div ul li{
     list-style-type: none;
+    margin-left: -20px;
+    padding: 5px;
  }
  .parent_div{
      width: 300px;
      float: left;
      margin: 10px;
  }
-.box{
-    width: 300px;
-    height: 200px;
+.box {
+    float: left;
 }
- .blue {
-     background-color: darkblue;
-
- }
- .red {
-    background-color: darkred;
+ .bbox {
+     clear: left;
  }
 
- .green {
-    background-color: mediumaquamarine;
+ .footer {
+     background-color: #31698A;
+     color: white;
+     height: 40px;
+     width: 1200px;
+     margin: 0 auto;
+ }
+ .footer p {
+     margin-left: 130px;
+     line-height: 40px;
  }
 
- .yellow {
-     background-color: yellow;
- }
 
 
 

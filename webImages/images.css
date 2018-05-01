@@ -1,0 +1,32 @@
+/* img{
+    display: block;
+    width: 500px;
+}
+#first{
+    height: 200px;
+    float: right;
+   
+}
+#second{
+    width: 200px;
+    margin: 0 auto;
+    clear: both;
+}
+#third{
+    height: 200px;
+    width: 200px;
+    float: left;
+    clear: right;
+} */
+body{
+    background-image: url(https://www.photohdx.com/images/2016/11/clean-white-paper-texture-background.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-attachment: fixed;
+    background-size:cover; 
+}
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
