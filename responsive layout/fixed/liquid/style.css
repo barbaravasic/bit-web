@@ -1,0 +1,78 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+}
+.cf:before,
+.cf:after  {
+    content:'';
+    display: table;
+}
+.cf:after {
+    clear: both;  
+}
+p {
+    font-size: 1vw;
+}
+h1 {
+    font-size: 2.8vw;
+}
+h3 {
+    font-size: 1vw;
+}
+
+h4 {
+    font-size: 2vw;
+}
+
+.header {
+    width: 70%;
+    margin: 3% auto;
+}
+.header-title {
+    display: inline-block;
+    width: 70%;
+}
+.header-title h1 {
+    display: inline-block;
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 0;
+    clear: both;
+}
+.header-title h3 {
+    margin-left: 4%;
+    margin-top: 0;
+}
+.logo{
+    display: block;
+    float: left;
+    max-width: 150px;
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.header-title h1 {
+    display: inline-block;
+    margin-left: 4%;
+    margin-top: 1%;
+    margin-bottom: 0;
+    clear: both;
+}
+.container {
+    width: 80%;
+    margin: 0 auto; 
+}
+
+.container aside {
+    float: left;
+    width: 40%;
+    margin-left:7%;
+}
+
+.article-container article {
+    float: right;
+    width: 45%;
+    border-left: 2px solid black;
+    padding-left: 3%;
+    padding-top: 0;
+}
