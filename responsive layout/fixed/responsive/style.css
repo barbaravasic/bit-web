@@ -1,6 +1,13 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+p {
+    font-size: 1.5vw;
+}
+h1 {
+    font-size: 3vw;
+}
 .cf:before,
 .cf:after  {
     content:'';
@@ -36,17 +43,84 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: rgb(107, 107, 226)
+    color: rgb(107, 107, 226);
+    font-size: 1.2vw;
 }
 
 .active {
     background-color: rgb(107, 107, 226);
     color: white;
     padding: 23%;
-    margin-right: 20px;
+    margin-right: 5%;
     border-radius: 4px;
 }
 
+.header-img img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
 .header-img {
-    margin-top: 30px;
+    width: 70%;
+    margin: 10px auto;
+    padding: 2% 0;
+    border-radius: 6px;
+    border: 1px solid gray;
+}
+
+.main-content {
+    width: 70%;
+    margin: 0 auto;
+}
+
+article {
+    float: left;
+    width: 33%;
+    margin-right: 8px;
+    width: calc((100% - 16px) / 3);
+}
+article:nth-child(3n) {
+    margin-right: 0;
+}
+
+article img {
+    max-width: 100%;
+}
+article p{
+    text-align: center;
+}
+
+/* tablet layout */
+
+@media all and (max-width: 960px) {
+    article {
+        box-sizing: border-box;
+        display: block;
+        float: none;
+        width: 100%;
+        border: solid 1px gray;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+
+    article img {
+        float: left;
+        max-width: 35%;
+    }
+    article p{
+        float: right;
+        max-width: 60%;
+    }
+}
+
+@media all and (max-width: 650px) {
+    header h1 {
+        float: none;
+       text-align: center;
+       
+    }
+    nav {
+        float: none;
+        
+    }
 }
