@@ -67,7 +67,9 @@ nav ul li a {
     border-radius: 6px;
     border: 1px solid gray;
 }
-
+.second-nav {
+    display: none;
+}
 .main-content {
     width: 70%;
     margin: 0 auto;
@@ -120,7 +122,9 @@ article p{
        
     }
     nav {
-        float: none;
-        
+        display: none;   
+    }
+    .second-nav {
+        display: block;
     }
 }
