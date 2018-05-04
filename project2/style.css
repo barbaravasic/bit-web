@@ -27,10 +27,11 @@ header{
 }
 #header-img {
     width: 100%;
-    height: 360px;
+    height: 260px;
     top: 0px;
     background-image: url(images/banner3.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
     
 }
 #header-img h1 {
@@ -39,6 +40,7 @@ header{
     top: 60px;
     text-align: center;
     text-transform: uppercase;
+    font-size: 26px;
     font-weight: normal;
     margin: 0px 30px 20px 30px;
 } 
@@ -46,13 +48,14 @@ header{
 #header-img button{
     background-color: rgb(45, 101, 206);
     color: white;
-    padding: 8px 20px;
+    padding: 8px 30px;
     border-radius: 20px;
     border: none;
     margin: 0 auto;
     display: block;
     position: relative; 
-    top: 50px;
+    top: 60px;
+    font-size: 16px;
 }
 
 #logo-div {
@@ -111,27 +114,40 @@ h2 {
     font-size: 35px;
     font-weight: lighter;
 }
+
+.romb-div {
+    width: 50px;
+    position: relative;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.romb-div:before,
+.romb-div:after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    height: 3px;
+    background: #000;
+    width:50px;
+}
+
+.romb-div:before {
+    right: 100%;
+}
+
+.romb-div:after {
+    left: 100%;
+}
+
 .romb {
     width: 20px;
     height: 20px;
     border: 2px solid black;
     transform: rotate(45deg);
     margin: 0 auto;
-}
-.romb-div{
-    width: 200px;
-    margin: 0 auto;
-    height: 50px;
-}
-.left {
-    float: left;
-    width: 60px;
-    border-top: 2px solid black;
-}
-.right {
-    float: right;
-    width: 60px;
-    border-top: 2px solid black;
+    position: relative;
 }
 
 #about, #testimonials {
@@ -141,5 +157,233 @@ h2 {
 #about img {
     width: 100%;
 }
+#about h3{
+    color: rgb(133, 195, 245);
+    text-transform: capitalize;
+}
+#about ul{
+    padding-left: 15px;
+    margin-top: 20px;
+}
+#about ul li{
+    list-style-image: url(images/arrow_bullet.png);
+    padding-bottom: 8px;
+}
+#about ul li a{
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
 
+.celeb {
+    width: 100%;
+    background-color: rgb(133, 195, 245); 
+}
+.celeb p {
+    color: white;
+    font-size: 14px;
+    padding: 20px;
+    line-height: 25px;
+}
+.celeb-header {
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+ .celeb-header img {
+     border-radius: 50%;
+     border: 3px solid white;
+     padding: 4px;
+     width: 60px;
+     display: block;
+     float: left;
+ }
+ .celeb-header h5 {
+     text-transform: uppercase;
+     font-size: 16px;
+     font-weight: bold;
+     margin-bottom: 0;
+     margin-top:15px;
+ }
+ .fas{
+     color: white;
+     font-size: 12px;
+     margin-top: 5px;
+ }
 
+ .celeb-header > div {
+     float: left;
+     margin-left: 15px;
+ }
+ #contact{
+    width: 100%;
+    color:white;
+    text-align: center;
+}
+#contact h2{
+    color: black;
+}
+#contact h5 {
+    text-transform: uppercase;
+    color:white;
+    font-size: 20px;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+ #contact_us{
+     background-color: rgb(93, 228, 149);
+     padding: 10px;
+ }
+#contact_us p {
+    margin: 10px;
+}
+ .fa-mobile-alt{
+     margin-right: 5px;
+     font-size: 18px;
+ }
+ .fa-envelope{
+    margin-right: 5px;
+    font-size: 18px;
+ }
+ #connect {
+    background-color: rgb(241, 104, 127);
+ }
+ #address {
+    background-color: rgb(68, 113, 209);
+ }
+ #address .fas {
+     font-size: 14px;
+ }
+ #address p {
+     padding-bottom: 30px;
+     margin-bottom: 0px;
+     font-size: 14px;
+ }
+ #house {
+     background-color: rgb(91, 199, 241);
+ }
+
+ .connection .fab,.connection .fas {
+     padding: 10px;
+ }
+ .connection{
+    padding-bottom: 30px;
+ }
+#house img{
+    height: 200px;
+}
+form {
+    width: 90%;
+    margin: 0 auto;
+}
+.form-input {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding-left: 10px;
+}
+textarea {
+    height: 100px;
+    width: 99.5%;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border: 1px solid;
+}
+
+.form-submit {
+    width: 90px;
+    display: block;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(248, 152, 8); 
+    color: white;
+    padding: 7px 15px;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: rgb(48, 47, 47);
+}
+#footer-nav{
+    width: 100%;
+    margin: 0 auto;
+}
+#footer-nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+
+}
+#footer-nav  li{
+    display: inline;
+}
+#footer-nav  li a {
+    color: white;
+    text-decoration: none;
+    margin: 2%;
+    font-size: 14px;
+}
+footer p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+
+@media all and (min-width:768px) {
+    #logo-div {
+        width: 150px;
+        margin-bottom: 15px;
+        margin-top: 30px;
+        float: left;
+        position: absolute;
+        top: 0;
+    }
+    #build{
+        float: left;
+        font-size: 20px;
+        font-weight: bold;
+        color: rgb(248, 152, 8);
+        border: 4px solid white;
+        border-right: none;
+        padding-left: 10px;
+       
+    }
+    #estate{
+        float: right;
+        text-transform: uppercase;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 4px; 
+        color: white;
+    }
+    #header-img h1 {
+        color: white;
+        position: relative;
+        top: 90px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 26px;
+        font-weight: normal;
+        margin: 0px 30px 20px 30px;
+    } 
+    
+    #header-img button{
+        background-color: rgb(45, 101, 206);
+        color: white;
+        padding: 8px 30px;
+        border-radius: 20px;
+        border: none;
+        margin: 0 auto;
+        display: block;
+        position: relative; 
+        top: 60px;
+        font-size: 16px;
+    }
+}
