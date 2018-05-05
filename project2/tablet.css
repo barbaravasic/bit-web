@@ -1,0 +1,90 @@
+@media all and (min-width:768px) {
+    #header-img {
+        height: 500px;
+    }
+    #header-img h1 { 
+        top: 207px;
+    } 
+    #header-img button{
+        top: 250px;
+        font-size: 16px;
+    }
+    #logo-div {
+        width: 150px;
+        float: left;
+        position: absolute;
+        top: 0;
+        left: 25px;
+    }
+    #build{
+        font-size: 20px;
+        border: 4px solid white;
+        border-right: none;
+    }
+    #estate {
+        font-size: 20px;
+        color: white;
+    }
+    #header-nav ul {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    #header-nav ul li {
+        float:left;
+        padding: 8px;
+    }
+    
+    #header-nav ul li a {
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .welcome{
+        float: left;
+        width: 50%;
+    }
+    #about img {
+        width: 50%;
+        float: right;
+    }
+    #about ul li{
+        padding-bottom: 10px;
+    }
+    .dream-home {
+        float: left;
+    }
+    .celeb {
+        float: left;
+        width: calc((100% - 10px) /2);
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    .celeb:nth-child(2n) {
+        margin-right: 0;
+    }
+    .contact {
+        float: left;
+        width: 50%;
+        height: 200px;
+        line-height: 200px;
+    }
+    .align {
+        display: inline-block;
+        vertical-align: middle;
+        line-height: normal;
+    }
+    #contact_us{
+        padding: 0;
+    }
+    
+    .form-input {
+        float: left;
+        width: calc((100% - 56px) /3);
+        margin-right: 10px;
+    }
+    .form-input:nth-child(3n) {
+        margin-right: 0;
+    }
+      
+       
+}

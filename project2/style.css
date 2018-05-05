@@ -11,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'robotoregular';
-    
 }
 .cf::after,
 .cf::before {
@@ -31,8 +30,7 @@ header{
     top: 0px;
     background-image: url(images/banner3.jpg);
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
 }
 #header-img h1 {
     color: white;
@@ -251,34 +249,34 @@ h2 {
  #connect {
     background-color: rgb(241, 104, 127);
  }
+ .connection .fab,.connection .fas {
+    padding: 10px;
+}
+.connection{
+   padding-bottom: 30px;
+}
  #address {
     background-color: rgb(68, 113, 209);
  }
  #address .fas {
-     font-size: 14px;
+    font-size: 14px;
  }
  #address p {
-     padding-bottom: 30px;
-     margin-bottom: 0px;
-     font-size: 14px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    font-size: 14px;
  }
  #house {
-     background-color: rgb(91, 199, 241);
+    background-color: rgb(91, 199, 241);
  }
-
- .connection .fab,.connection .fas {
-     padding: 10px;
- }
- .connection{
-    padding-bottom: 30px;
- }
-#house img{
-    height: 200px;
+ #house img{
+    width: 35%;
 }
 form {
     width: 90%;
     margin: 0 auto;
 }
+
 .form-input {
     display: block;
     margin: 0 auto;
@@ -290,11 +288,11 @@ form {
 }
 textarea {
     height: 100px;
-    width: 99.5%;
+    width: 100%;
     padding-left: 10px;
     padding-top: 10px;
     margin-bottom: 20px;
-    border: 1px solid;
+    border: 1px solid black;
 }
 
 .form-submit {
@@ -310,6 +308,7 @@ textarea {
 
 footer {
     background-color: rgb(48, 47, 47);
+    padding: 30px 10px;
 }
 #footer-nav{
     width: 100%;
@@ -336,54 +335,3 @@ footer p{
     font-size: 14px;
 }
 
-@media all and (min-width:768px) {
-    #logo-div {
-        width: 150px;
-        margin-bottom: 15px;
-        margin-top: 30px;
-        float: left;
-        position: absolute;
-        top: 0;
-    }
-    #build{
-        float: left;
-        font-size: 20px;
-        font-weight: bold;
-        color: rgb(248, 152, 8);
-        border: 4px solid white;
-        border-right: none;
-        padding-left: 10px;
-       
-    }
-    #estate{
-        float: right;
-        text-transform: uppercase;
-        font-size: 20px;
-        font-weight: bold;
-        padding-top: 4px; 
-        color: white;
-    }
-    #header-img h1 {
-        color: white;
-        position: relative;
-        top: 90px;
-        text-align: center;
-        text-transform: uppercase;
-        font-size: 26px;
-        font-weight: normal;
-        margin: 0px 30px 20px 30px;
-    } 
-    
-    #header-img button{
-        background-color: rgb(45, 101, 206);
-        color: white;
-        padding: 8px 30px;
-        border-radius: 20px;
-        border: none;
-        margin: 0 auto;
-        display: block;
-        position: relative; 
-        top: 60px;
-        font-size: 16px;
-    }
-}
