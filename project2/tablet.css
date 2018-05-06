@@ -85,6 +85,9 @@
     .form-input:nth-child(3n) {
         margin-right: 0;
     }
+    textarea{
+        width: 98.5%;
+    }
       
        
 }
