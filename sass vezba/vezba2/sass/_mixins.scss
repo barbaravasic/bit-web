@@ -1,0 +1,7 @@
+@mixin text-shadow($length, $blur,  $color) {
+   text-shadow: $length $length $blur $color;
+}
+
+@mixin box-shadow ($length, $blur,  $color2) {
+    box-shadow: $length $length $blur $color2;
+}
