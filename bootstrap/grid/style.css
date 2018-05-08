@@ -1,0 +1,27 @@
+p{
+    margin: 10px;
+    color: white;
+    text-align: center;
+}
+.row {
+    margin-bottom: 10px;
+}
+#first-row{
+    background-color: beige;
+}
+#second-row{
+    background-color:rgb(181, 196, 181);
+}
+#third-row{
+    background-color: rgb(224, 161, 161);
+}
+
+#first-row .cell{
+    background-color: rgb(102, 97, 97);
+}
+#second-row .cell{
+    background-color: rgb(102, 97, 97);
+}
+#third-row .cell{
+    background-color: rgb(102, 97, 97);
+}
