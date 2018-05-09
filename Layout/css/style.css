@@ -1,0 +1,22 @@
+.nav-header {
+  background-color: #db2323;
+  margin-bottom: 5px; }
+
+.our-nav li a {
+  color: white; }
+
+.aside li {
+  background-color: #ffed39;
+  text-align: center; }
+
+.our-row {
+  margin-bottom: 10px; }
+
+.footer {
+  background-color: #31698A;
+  color: white; }
+
+.card-width {
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
