@@ -20,6 +20,10 @@
             color:$white-color;
             margin-bottom: 20px;
         }
+        &::before,
+        &::after {
+            border-color: $white-color;
+        }
     }
     p{
         color: $white-color;

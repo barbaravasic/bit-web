@@ -12,6 +12,10 @@
         .fa-star {
             color: $white-color;
         }
+        &::after,
+        &::before {
+            border-color: $white-color;
+        }
     }
     
     p {
