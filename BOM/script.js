@@ -73,3 +73,28 @@ function moveNumber(num) {
 function navigateTwoPagesBack () {
     history.go(-2);
 }
+
+function greetings () {
+    alert("Hello!!!");
+}
+
+function question () {
+    var userInput = prompt("How are you?");
+    var confirmDialog = confirm("We will submit this answer " + userInput);
+
+    if (confirmDialog) {
+        alert("Success!!");
+    }
+}
+
+function buildAnArray () {
+    var someArray = [];
+
+    for (var i = 0; i < 10; i++) {
+
+        someArray[i] = Math.floor(Math.random() * 49 + 1);
+    }
+    console.log(someArray);
+    return someArray;
+}
+
