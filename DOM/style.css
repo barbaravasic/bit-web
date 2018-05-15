@@ -1,0 +1,16 @@
+.second-list {
+    background-color: rgb(245, 215, 82);
+}
+
+.all-li {
+    background-color: rgb(233, 68, 68);
+}
+
+.li-element {
+    background-color: aquamarine;
+    text-transform: uppercase;
+}
+
+.active {
+    background-color: rgb(223, 199, 247);
+}
