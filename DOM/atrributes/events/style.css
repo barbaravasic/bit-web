@@ -1,0 +1,10 @@
+.body-predefined {
+    background-color: beige;
+}
+.body-background{
+    background-color: rgb(41, 41, 124);
+}
+button {
+    display: block;
+    margin: 100px auto;
+}
