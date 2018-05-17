@@ -1,0 +1,10 @@
+body{
+    background-image: url(img/field.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+img {
+    width: 10%;
+}
+
