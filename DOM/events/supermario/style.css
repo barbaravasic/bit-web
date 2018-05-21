@@ -1,0 +1,7 @@
+body {
+    /* background-color: blue; */
+    background-image: url(./images/bg.jpg);
+    background-repeat: repeat-x;
+    background-position-x: bottom;
+    background-position-y: top;
+}
