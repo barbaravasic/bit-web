@@ -15,3 +15,4 @@ function stopMoving(event) {
 }
 field.addEventListener("click", movingPlayer);
 stopBtn.addEventListener("click", stopMoving);
+
