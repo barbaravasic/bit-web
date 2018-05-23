@@ -1,0 +1,13 @@
+.box{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    background-color: rgb(116, 219, 150);
+}
+img{
+    margin-top:15px;
+    
+}
+.slider div img{
+    margin: 0 auto;
+}
